@@ -1,4 +1,5 @@
    #!/bin/bash
+   apt update
    apt install git curl build-essential wget -y
    rm -f /etc/systemd/system/docker.service.d/override.conf
    update-grub
