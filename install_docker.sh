@@ -1,4 +1,5 @@
    #!/bin/bash
+   apt update
    apt install git curl build-essential wget -y
    bash -c "echo blacklist nouveau > /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
    bash -c "echo options nouveau modeset=0 >> /etc/modprobe.d/blacklist-nvidia-nouveau.conf"
