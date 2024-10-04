@@ -39,6 +39,6 @@ systemctl daemon-reload \
 nvidia-ctk runtime configure --runtime=docker --set-as-default
 systemctl restart docker
 cd /usr/local/src/docker_install_ole
-docker build -t cooliobr/mux:isdbt .
+docker build -t cooliobr/mux:local .
 wget https://raw.githubusercontent.com/keylase/nvidia-patch/master/patch.sh && chmod 755 patch.sh && ./patch.sh
 docker-compose -f /usr/local/src/docker_install_ole/docker-compose-encoder.yml up -d
