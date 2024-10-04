@@ -6,7 +6,7 @@ Para instalação do proxy e do encoder, é aconselhado o uso do Ubuntu 18.05 ou
 server#: sh install_docker.sh<p>
 <p>
 acesse via web:<p>
-http://[ip_do_servidor]:280/0/<p>
+http://[ip_do_servidor]:280/encoder/<p>
 Usuário: admin<p>
 Senha: [solicite a senha]<p>
 <p>
