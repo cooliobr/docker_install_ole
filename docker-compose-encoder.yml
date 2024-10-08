@@ -25,7 +25,6 @@ services:
             - /etc/localtime:/etc/localtime:ro    
             - /sys/fs/cgroup:/sys/fs/cgroup:rw
             - /opt/ssl:/opt/ssl:rw
-            - /opt/conf:/opt/conf:rw
             - /dev/shm:/var/www/html/live:rw
             - /usr/local/cuda:/usr/local/cuda:rw
         ports:
