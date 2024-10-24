@@ -1,4 +1,4 @@
-FROM cooliobr/mux:isdbt
+FROM cooliobr/local:1.0
 COPY ./conf /opt/conf
 RUN chmod -R 777 /opt/conf/
 RUN cd /usr/local/src/astra-cooliobr/ && ./configure.sh && make
