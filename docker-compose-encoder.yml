@@ -24,6 +24,7 @@ services:
             - /etc/timezone:/etc/timezone:ro
             - /etc/localtime:/etc/localtime:ro    
             - /sys/fs/cgroup:/sys/fs/cgroup:rw
+            - /usr/local/cuda/targets/x86_64-linux/lib:/usr/local/cuda/targets/x86_64-linux/lib:ro
             - /opt/ssl:/opt/ssl:rw
             - /dev/shm:/var/www/html/live:rw
             - /usr/local/cuda:/usr/local/cuda:rw
