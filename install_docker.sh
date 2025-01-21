@@ -8,7 +8,7 @@ service lightdm stop
 rmmod nouveau
 update-grub
 update-initramfs -u
-wget wget https://developer.download.nvidia.com/compute/cuda/12.6.1/local_installers/cuda_12.6.1_560.35.03_linux.run
+wget https://developer.download.nvidia.com/compute/cuda/12.6.1/local_installers/cuda_12.6.1_560.35.03_linux.run
 chmod 755 cuda_12.6.1_560.35.03_linux.run
 ./cuda_12.6.1_560.35.03_linux.run --override --driver --toolkit --silent
 curl -fsSL https://get.docker.com -o get-docker.sh
