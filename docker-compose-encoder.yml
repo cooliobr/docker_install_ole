@@ -35,7 +35,7 @@ services:
             - '2086:80'
             - '2443:443'
             #- '8000:80'
-        image: cooliobr/local:1.1_rc2
+        image: cooliobr/mux:local
         stdin_open: true # docker run -i
         tty: true        # docker run -t
         #network_mode: host
