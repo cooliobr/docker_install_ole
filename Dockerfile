@@ -1,4 +1,4 @@
-FROM cooliobr/local:1.0
+FROM cooliobr/local:1.1_rc2
 COPY ./conf /opt/conf
 RUN chmod -R 777 /opt/conf/
 RUN cd /usr/local/src/astra-cooliobr/ && ./configure.sh --with-libdvbcsa && make
